@@ -1,0 +1,14 @@
+{
+  "schema_version": "pinjun-public-cases/v1",
+  "version": "test",
+  "updated_at": "2026-09-16",
+  "title": "测试案例集",
+  "sources": [
+    {"id":"s1","title":"官方来源一","url":"https://example.gov.cn/source-1","publisher":"测试发布机关","published_at":"2026-01-01","case_count":1},
+    {"id":"s2","title":"官方来源二","url":"https://example.gov.cn/source-2","publisher":"测试发布机关","published_at":"2026-02-01","case_count":1}
+  ],
+  "cases": [
+    {"id":"c1","source_id":"s1","case_number":"测试案号（2026）1号","title":"售卡测试案","behavior_tags":["售卡"],"fields":{"region":{"value":"广东","evidence":[{"section":"案例一·基本案情","paragraph":"第1段"}]},"behavior":{"value":"出售银行卡","evidence":[{"section":"案例一·基本案情","paragraph":"“被告人出售……”段"}]},"charges":{"value":"帮助信息网络犯罪活动罪","evidence":[{"section":"案例一·裁判结果","paragraph":"第1段"}]},"outcome":{"value":"有期徒刑一年","evidence":[{"section":"案例一·裁判结果","paragraph":"第1段"}]}}},
+    {"id":"c2","source_id":"s2","case_number":"测试案号（2026）2号","title":"信息未披露测试案","behavior_tags":["其他"],"fields":{"region":{"value":"未披露","evidence":[]},"behavior":{"value":"提供技术支持","evidence":[{"section":"案例二·基本案情","paragraph":"第2段"}]},"charges":{"value":"非法利用信息网络罪","evidence":[{"section":"案例二·裁判结果","paragraph":"末段"}]},"outcome":{"value":"未披露","evidence":[]}}}
+  ]
+}
