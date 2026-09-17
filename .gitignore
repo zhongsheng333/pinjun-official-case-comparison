@@ -1,0 +1,7 @@
+audit/
+dist/
+node_modules/
+experiment/raw/
+experiment/screenshots/
+.env*
+*.zip

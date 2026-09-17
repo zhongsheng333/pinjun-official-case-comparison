@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>整理方法与更新记录｜公开刑事案例</title><link rel="stylesheet" href="style.css"></head><body>
+<header class="site-header"><div class="wrap masthead"><a class="brand" href="./">品珺研究</a><nav><a href="./">返回案例</a><a href="data/cases.json">JSON</a><a href="data/cases.csv">CSV</a></nav></div></header>
+<main class="wrap"><article class="intro"><p class="eyebrow">方法与更新记录</p><h1>如何整理这份案例资料</h1><p>本专题选取两批最高人民法院公开刑事材料中的 13 个案例，将办案地域、涉案行为、程序与罪名、处理结果按原文结构化。第一批聚焦电信网络诈骗及关联犯罪，第二批掩饰、隐瞒犯罪所得案例还包括钢板、海砂等非网络案件，因此不能把全部 13 案统称为网络犯罪案例。数量只表示本专题入选案例，不用于推断任何案件总体分布。</p></article>
+<section><div class="section-heading"><h2>整理原则</h2></div><ol><li>只记录官方材料明确披露的事实，不作推断。</li><li>缺失信息统一写作“未披露”。“未披露”只表示所用官方材料没有给出该信息，不等于事实不存在或结论为否定。</li><li>罚金、违法所得等具体费用没有披露时，不填 0，也不作推断。</li><li>罪名筛选匹配字段中出现的所列罪名，包括移送审查起诉、一审和改判前等程序标签；匹配结果不表示最终被判构成该罪。</li><li>网页、JSON 与 CSV 均由同一份数据生成。</li></ol></section>
+<section><div class="section-heading"><h2>字段定义</h2></div><div class="table-scroll"><table><thead><tr><th>字段</th><th>含义</th></tr></thead><tbody>
+<tr><td>source / published_at</td><td>案例所属的最高人民法院公开材料及该材料的发布日期。</td></tr>
+<tr><td>region</td><td>原文明示的办案机构所在地，不必然是行为发生地、被告人籍贯或住所地。</td></tr>
+<tr><td>behavior</td><td>基本案情中的行为及相关事实摘要；不同性质的金额不相互等同。</td></tr>
+<tr><td>charges</td><td>原文明示的涉嫌、起诉或裁判罪名，并保留所处程序阶段；改判案件保留前后表述。</td></tr>
+<tr><td>outcome</td><td>已披露的刑事裁判、检察处分或行政处罚结果，包括不起诉等处理。</td></tr>
+<tr><td>tags</td><td>为检索整理的事实分类，只用于筛选，不是罪名认定或完整案情。</td></tr>
+<tr><td>evidence</td><td>字段的官方原文定位。section 记录案例序号及小节；paragraph 从该小节正文第 1 段开始计数，不计标题和空行。</td></tr>
+</tbody></table></div></section>
+<section id="sources"><div class="section-heading"><h2>来源与责任</h2></div><p>来源索引位于<a href="./#sources">案例主页</a>。广东品珺律师事务所负责资料整理与技术维护。本专题为 AI 辅助的公开来源资料整理，不构成律师审阅或法律意见。</p></section>
+<section id="updates"><div class="section-heading"><h2>更新记录</h2></div><dl><dt>2026-09-16</dt><dd>首版整理（数据版本 1.0.0）：建立字段证据定位、筛选与三案比较功能。</dd></dl></section></main>
+<footer class="site-footer"><div class="wrap">© 广东品珺律师事务所 · 公开资料研究</div></footer></body></html>

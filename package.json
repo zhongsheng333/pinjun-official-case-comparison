@@ -1,0 +1,13 @@
+{
+  "name": "pinjun-cybercrime-cases",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/build.test.mjs tests/logic.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
